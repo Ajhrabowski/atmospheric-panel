@@ -1,0 +1,43 @@
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    
+    padding: 20px;
+    background-color: rgb(75, 75, 240);
+    
+}
+
+h1 {
+    
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+  
+}
+
+h2{
+    font-size: 40px;
+    
+}
+
+#search{
+    
+    padding:15px;
+    width: 265px;
+    border-radius: 10px;
+    
+}
+
+#searchbtn{
+
+    padding:15px;
+    width: 265px;
+    border-radius: 10px;
+    
+
+}
