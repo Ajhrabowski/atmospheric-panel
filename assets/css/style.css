@@ -20,12 +20,8 @@ h1 {
   
 }
 
-h2{
-    font-size: 40px;
-    
-}
 
-#search{
+#searchBar{
     
     padding:15px;
     width: 265px;
@@ -34,10 +30,64 @@ h2{
 }
 
 #searchbtn{
-
+    
     padding:15px;
     width: 265px;
     border-radius: 10px;
+    background-color: rgb(148, 148, 228);
+    
+    
+}
+
+
+h3{
+    font-size: 33px;
+    margin-left: 310px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 10px;
+    
+}
+.weather1 {
+
+    background-color: rgb(31, 31, 97);
+    height: 225px;
+    width: 200px;
+
+}
+.weather2 {
+
+    background-color: rgb(31, 31, 97);
+    height: 225px;
+    width: 200px;
+
+}
+
+.weather3 {
+
+    background-color: rgb(31, 31, 97);
+    height: 225px;
+    width: 200px;
+
+}
+
+.weather4 {
+
+    background-color: rgb(31, 31, 97);
+    height: 225px;
+    width: 200px;
+
+}
+.weather5 {
+
+    background-color: rgb(31, 31, 97);
+    height: 225px;
+    width: 200px;
     
 
 }
