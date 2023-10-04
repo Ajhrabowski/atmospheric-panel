@@ -3,20 +3,22 @@ var APIKey = "729fc5cf58d6f14307e8d05b5359b614";
 const API_KEY = "729fc5cf58d6f14307e8d05b5359b614";
 
 //add click handler on search button and var to keep track of input box
-var APIURL = "https://api.openweathermap.org/data/2.5/weather?q=Detroit&units=imperial&appid=729fc5cf58d6f14307e8d05b5359b614"
+var APIURL = "https://api.openweathermap.org/data/2.5/weather?units=imperial&appid=729fc5cf58d6f14307e8d05b5359b614"
 var search = document.getElementById("searchbtn");
-
+var searchInput = document.getElementById("searchBar")
 // Grab REFERENCE to any HTML ELEMENTs i want to change/modify
 var currentCity = document.querySelector('.city');
 var currentTemp = document.querySelector('.temperature');
 var currentHumidity = document.querySelector('.humidity');
 var currentWind = document.querySelector('.wind');
 var currentDate = document.querySelector('.date')
+var container = document.querySelector('.container')
 
 
 search.addEventListener("click", function () {
     //console.log("hi")
-    fetch(APIURL)
+    var searchUrl = APIURL + "&q=" + searchInput.value
+    fetch(searchUrl)
         .then(response => response.json())
         .then(data => {
             console.log(data)
@@ -69,11 +71,18 @@ function getForcast(latitude,longitude){
             }
 
             console.log("Filtered data: ", filteredData)
-
+            container.innerHTML = "";
             // Now that we have the ESSENTIAL DATA --> waht do we do with it(?)
+            for(let i = 0; i < filteredData.length; i++) {
+            var newTemp = document.createElement("div")
+            newTemp.setAttribute("class","weather"+i)
+            var cityEl = document.createElement("h2")
+            cityEl.textContent = "city; " + searchInput.value
+            newTemp.appendChild(cityEl)
+            container.appendChild(newTemp)
+         
 
-            var newTemp = document.createElement()
-
+            }
             // UPDATE THE DOM with the new data we recieved from the API call 
 
 
