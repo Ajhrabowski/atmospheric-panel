@@ -31,6 +31,7 @@ search.addEventListener("click", function () {
             var wind = data.wind.speed;
             var humid = data.main.humidity;
             var todaysDate = (new Date(data.dt*1000)).toDateString()
+            var iconUrl = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
             console.log("Data:", cityName, temp, humid)
             // UPDATE the HTML content on screen
             currentCity.textContent = cityName;
@@ -38,6 +39,7 @@ search.addEventListener("click", function () {
             currentWind.textContent = wind;
             currentHumidity.textContent = humid
             currentDate.textContent = todaysDate
+            
 
         });
 
@@ -72,13 +74,33 @@ function getForcast(latitude,longitude){
 
             console.log("Filtered data: ", filteredData)
             container.innerHTML = "";
-            // Now that we have the ESSENTIAL DATA --> waht do we do with it(?)
+            // Now that we have the ESSENTIAL DATA --> what do we do with it(?)
             for(let i = 0; i < filteredData.length; i++) {
             var newTemp = document.createElement("div")
-            newTemp.setAttribute("class","weather"+i)
+            newTemp.setAttribute("class","weather1")
             var cityEl = document.createElement("h2")
             cityEl.textContent = "city; " + searchInput.value
             newTemp.appendChild(cityEl)
+            var iconUrl = `https://openweathermap.org/img/w/${filteredData[i].weather[0].icon}.png`;
+            var weatherIcon = document.createElement('img')
+            weatherIcon.setAttribute('src',iconUrl)
+
+            //var todaysDate = (dayjs(data.dt*1000)).format('M/D/YYYY');
+            var dateEl = document.createElement("h2")
+            //dateEl.textContent = todaysDate
+
+          
+           
+            var windEl = document.createElement("h2")
+            windEl.textContent = "wind; " +filteredData[i].wind.speed
+            newTemp.appendChild(windEl)
+            newTemp.appendChild(weatherIcon)
+           
+            //add dayjs dayjs(forecast.dt_txt).format('M/D/YYYY');
+           
+            
+            
+            
             container.appendChild(newTemp)
          
 
