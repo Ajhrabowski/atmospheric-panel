@@ -85,10 +85,15 @@ function getForcast(latitude,longitude){
                 var weatherIcon = document.createElement('img')
                 weatherIcon.setAttribute('src',iconUrl)
 
+               
                 //var todaysDate = (dayjs(data.dt*1000)).format('M/D/YYYY');
                 var dateEl = document.createElement("h2")
-                //dateEl.textContent = todaysDate
-                
+                dateEl.textContent = "Date: " + (new Date(filteredData[i].dt*1000)).toDateString();
+                // var newDate = (new Date(data.dt*1000)).toDateString()
+                // dateEl.textContent = newDate
+                newTemp.appendChild(dateEl);
+
+
                 newTemp.appendChild(weatherIcon)
                 
                 var tempEl = document.createElement("h2")
