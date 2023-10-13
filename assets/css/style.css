@@ -23,6 +23,8 @@ h1 {
 .search-city{
 
     padding-right: 15px;
+    margin-top: 10px;
+
 }
 
 
@@ -70,20 +72,33 @@ h3{
 }
 
 h4{
-    text-align: center;
+
     display: flex;
-    width: 15%;
+    flex-direction: column;
+    text-align: center;
+ display: flex;
+    width: 92%;
     padding-right: 15px;
-    background-color: grey;
-   
+    background-color: rgb(198, 198, 198);height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    
+
+
+    
+    
 }
+
 .container {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
     margin-right: 20px;
+    font-size: 140%;
     
 }
+
 .weather1 {
     background-color: rgb(61, 61, 85);
     height: 325px;
