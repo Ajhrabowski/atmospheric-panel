@@ -67,7 +67,8 @@ h2 {
 h3{
     
     font-size: 33px;
-    margin-left: 360px;
+    padding-top: 25px;
+   
     
 }
 
@@ -76,7 +77,8 @@ h4{
     display: flex;
     flex-direction: column;
     text-align: center;
- display: flex;
+    
+    display: flex;
     width: 92%;
     padding-right: 15px;
     background-color: rgb(198, 198, 198);height: 40px;
@@ -95,14 +97,17 @@ h4{
     justify-content: flex-end;
     gap: 10px;
     margin-right: 20px;
-    font-size: 140%;
+    font-size: 130%;
+    padding-top: 15px;
+
     
 }
 
 .weather1 {
     background-color: rgb(61, 61, 85);
-    height: 325px;
+    height: 300px;
     width: 300px;
+    
 
 }
 
