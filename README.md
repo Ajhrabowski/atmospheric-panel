@@ -1,20 +1,31 @@
 # atmospheric-panel
 5-Day Weather Dashboard
 
+## Table of Contents
+
+- [License](#license)
+- [Description](#description)
+- [Installation](#installation)
+
 ## Description
 
 - This project is from scratch project on a even-numbered week so we weren't given any starter code. Our goal was to create a Weather Dashboard using a 5-Day Weather Forcast API  to retrieve weather data for cities.
 
- ![06-server-side-apis-homework-demo](https://github.com/Ajhrabowski/atmospheric-panel/assets/133185679/a5374c3c-017b-48bb-b161-f367374244ab)
+## Deployed application
+
+https://ajhrabowski.github.io/atmospheric-panel/
+
+![06-server-side-apis-homework-demo](https://github.com/Ajhrabowski/atmospheric-panel/assets/133185679/a5374c3c-017b-48bb-b161-f367374244ab)
 
 
 ## Installation
-N/A
 
-## Credits
-N/A
+Required applications:
+- Visual Studio Code: (https://code.visualstudio.com/)
+- Git for MAC/Windows/Linux: (https://git-scm.com/downloads)
 
 ## License
+
 MIT License
 
 Copyright (c) [2023] [Anthony Hrabowski]
@@ -36,3 +47,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Read more about MIT here:
+[MIT](https://opensource.org/licenses/MIT)
