@@ -7,7 +7,9 @@
 .header {
     
     padding: 20px;
-    background-color: rgb(75, 75, 240);
+    background: linear-gradient(to left, #005aa7,#9ec2e1 );
+    
+    
     
 }
 
@@ -42,25 +44,29 @@ h1 {
     width: 265px;
     border-radius: 10px;
     padding-bottom: 50;
-    background-color: rgb(148, 148, 228);
+    color: white;
+    background-color: rgb(108, 108, 196);
     
     
 }
 
 .container1 {
-    display: flex;
+    
+    display: flex;    
+    
 }
 
 .container1 .button{
 
     padding-right: 20px;
+    
 }
  
-/* 
+
 h2 {
 
-    color: white;
-} */
+    margin-left: 10px;
+}
 
 
 
@@ -77,8 +83,8 @@ h4{
     display: flex;
     flex-direction: column;
     text-align: center;
-    
-    display: flex;
+    justify-content: center;
+   
     width: 92%;
     padding-right: 15px;
     background-color: rgb(198, 198, 198);height: 40px;
@@ -95,19 +101,22 @@ h4{
 .container {
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 20px;
     margin-right: 20px;
-    font-size: 130%;
+    font-size: 120%;
+    color: white;
+    line-height: 2.5em;
     padding-top: 15px;
-
+  
     
 }
 
 .weather1 {
-    background-color: rgb(61, 61, 85);
+    
+    background-color: rgb(74, 74, 124);
     height: 300px;
     width: 300px;
-    
+        
 
 }
 
@@ -117,7 +126,6 @@ h4{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    margin-left: 30px;
     gap: 20px;
     padding: 10px 10px;
     box-sizing: border-box;

@@ -79,7 +79,7 @@ function getForcast(latitude,longitude){
                 var newTemp = document.createElement("div")
                 newTemp.setAttribute("class","weather1")
                 var cityEl = document.createElement("h2")
-                cityEl.textContent = "city; " + searchInput.value
+                
                 newTemp.appendChild(cityEl)
                 var iconUrl = `https://openweathermap.org/img/w/${filteredData[i].weather[0].icon}.png`;
                 var weatherIcon = document.createElement('img')
@@ -88,7 +88,7 @@ function getForcast(latitude,longitude){
                
                 //var todaysDate = (dayjs(data.dt*1000)).format('M/D/YYYY');
                 var dateEl = document.createElement("h2")
-                dateEl.textContent = "Date: " + (new Date(filteredData[i].dt*1000)).toDateString();
+                dateEl.textContent = " " + (new Date(filteredData[i].dt*1000)).toDateString();
                 // var newDate = (new Date(data.dt*1000)).toDateString()
                 // dateEl.textContent = newDate
                 newTemp.appendChild(dateEl);
@@ -97,17 +97,17 @@ function getForcast(latitude,longitude){
                 newTemp.appendChild(weatherIcon)
                 
                 var tempEl = document.createElement("h2")
-                tempEl.textContent = "Temp: " + filteredData[i].main.temp;  // --> DAta[INDEX_vALUE].FIELDnAME.nestedFieldName
+                tempEl.textContent = "Temp:" + filteredData[i].main.temp;  // --> DAta[INDEX_vALUE].FIELDnAME.nestedFieldName
                 newTemp.appendChild(tempEl);
 
             
                 var windEl = document.createElement("h2")
-                windEl.textContent = "wind; " +filteredData[i].wind.speed
+                windEl.textContent = "Wind; " +filteredData[i].wind.speed
                 newTemp.appendChild(windEl)
 
                 
                 var humidEl = document.createElement("h2")
-                humidEl.textContent = "humidity: " + filteredData[i].main.humidity;  
+                humidEl.textContent = "Humidity: " + filteredData[i].main.humidity;  
                 newTemp.appendChild(humidEl);
                 
                 
