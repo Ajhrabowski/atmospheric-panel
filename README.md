@@ -4,6 +4,7 @@
 ## Description
 
 - This project is from scratch project on a even-numbered week so we weren't given any starter code. Our goal was to create a Weather Dashboard using a 5-Day Weather Forcast API  to retrieve weather data for cities.
+![06-server-side-apis-homework-demo](https://github.com/Ajhrabowski/atmospheric-panel/assets/133185679/a5374c3c-017b-48bb-b161-f367374244ab)
 
 ## Installation
 N/A
