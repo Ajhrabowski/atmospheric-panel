@@ -26,6 +26,7 @@ h1 {
 
     padding-right: 15px;
     margin-top: 10px;
+    
 
 }
 
@@ -33,6 +34,7 @@ h1 {
 #searchBar{
     
     padding:15px;
+    margin-top: 10px;
     width: 265px;
     border-radius: 10px;
     
@@ -41,6 +43,7 @@ h1 {
 #searchbtn{
     
     padding:15px;
+    margin-top: 10px;
     width: 265px;
     border-radius: 10px;
     padding-bottom: 50;
@@ -50,9 +53,20 @@ h1 {
     
 }
 
+.line {
+
+  border-bottom: 2px solid; color: grey;
+  margin-top: 20px;
+  display: block;
+  width: 92%;
+
+
+}
+
 .container1 {
     
-    display: flex;    
+    display: flex; 
+    margin-left: 10px;   
     
 }
 
@@ -91,10 +105,6 @@ h4{
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 5px;
-    
-
-
-    
     
 }
 
