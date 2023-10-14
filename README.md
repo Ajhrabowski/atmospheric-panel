@@ -11,6 +11,8 @@
 
 - This project is from scratch project on a even-numbered week so we weren't given any starter code. Our goal was to create a Weather Dashboard using a 5-Day Weather Forcast API  to retrieve weather data for cities.
 
+![Alt text](<Weather Dasboard.jpg>)
+
 ## Installation
 
 Required applications:
