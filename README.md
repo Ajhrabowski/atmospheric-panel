@@ -6,12 +6,15 @@
 - [License](#license)
 - [Description](#description)
 - [Installation](#installation)
+- [Contact Info](#contact-info)
 
 ## Description
 
 - This project is from scratch project on a even-numbered week so we weren't given any starter code. Our goal was to create a Weather Dashboard using a 5-Day Weather Forcast API  to retrieve weather data for cities.
 
-![Alt text](<Weather Dasboard.jpg>)
+
+https://ajhrabowski.github.io/atmospheric-panel/
+![Alt text](<assets/Weather Dasboard.jpg>)
 
 ## Installation
 
@@ -42,3 +45,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Contact Info: 
+
+* ajhrabowski@gmail.com
+* https://github.com/Ajhrabowski
